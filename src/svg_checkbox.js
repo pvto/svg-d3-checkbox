@@ -19,7 +19,7 @@
 
 var baseline = 12;  // base row height 
 
-toggleMySvgCheckbox = function( elem ) {
+var toggleMySvgCheckbox = function( elem ) {
     var storeKey = elem.id;
     var old = elem.checked;
     if (old == undefined) { old = localStorage && localStorage.getItem( storeKey ); }
